@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col2">
+                <h1 class="h1">Vadesiz Hesap Oluştur</h1>
+                <div class="content">
+                <div class="icerik">
+                <label for="">Hesap Adı:</label>
+                <input id="hesapadi" type="text">
+                <label for="">Para Birimi:</label>
+                <select name="" id="vadesizsecim">
+                    <div class="options">
+                    <option value="try" selected>TRY</option>
+                    <option value="eur">EUR</option>
+                    <option value="usd">USD</option>
+                    <option value="aud">AUD</option>
+                </div>
+                </select>
+                <label for="" id="minitutar">Minimum Tutar:</label>
+                <input id="hesapbakiye" placeholder="" type="number">
+                <h3 class="info"></h3>
+                <button id="olustur">Oluştur</button>
+                <button id="geriBtn">Geri Dön</button>
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
